@@ -1,10 +1,3 @@
-// Check if a reload has already been performed
-if (window.location.search !== '?reloaded') {
-
-    window.location.href = window.location.href + '?reloaded';
-
-}
-
 function scrollToSection(targetId) {
     const targetElement = document.querySelector(targetId);
     if (targetElement) {
